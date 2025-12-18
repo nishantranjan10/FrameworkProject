@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		19D67A8C2EF3CEBA0097BFCC /* FrameworkPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 19D67A8B2EF3CEBA0097BFCC /* FrameworkPackage */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		190963A22EF37CBE007D88CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19D67A8C2EF3CEBA0097BFCC /* FrameworkPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,7 @@
 				190963962EF37CBC007D88CF /* FrameworkProject */,
 				190963A42EF37CBE007D88CF /* FrameworkProjectTests */,
 				190963AE2EF37CBE007D88CF /* FrameworkProjectUITests */,
+				19D67A8A2EF3CEBA0097BFCC /* Frameworks */,
 				190963952EF37CBC007D88CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +96,13 @@
 				190963AB2EF37CBE007D88CF /* FrameworkProjectUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		19D67A8A2EF3CEBA0097BFCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -112,6 +125,7 @@
 			);
 			name = FrameworkProject;
 			packageProductDependencies = (
+				19D67A8B2EF3CEBA0097BFCC /* FrameworkPackage */,
 			);
 			productName = FrameworkProject;
 			productReference = 190963942EF37CBC007D88CF /* FrameworkProject.app */;
@@ -195,6 +209,9 @@
 			);
 			mainGroup = 1909638B2EF37CBC007D88CF;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				19D67A892EF3C1010097BFCC /* XCRemoteSwiftPackageReference "FrameworkPackage" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 190963952EF37CBC007D88CF /* Products */;
 			projectDirPath = "";
@@ -578,6 +595,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		19D67A892EF3C1010097BFCC /* XCRemoteSwiftPackageReference "FrameworkPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nishantranjan10/FrameworkPackage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		19D67A8B2EF3CEBA0097BFCC /* FrameworkPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 19D67A892EF3C1010097BFCC /* XCRemoteSwiftPackageReference "FrameworkPackage" */;
+			productName = FrameworkPackage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1909638C2EF37CBC007D88CF /* Project object */;
 }

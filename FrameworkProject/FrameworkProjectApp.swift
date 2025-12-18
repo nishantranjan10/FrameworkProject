@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FrameworkPackage
 
 @main
 struct FrameworkProjectApp: App {

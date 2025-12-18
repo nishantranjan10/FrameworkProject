@@ -1,0 +1,15 @@
+{
+  "originHash" : "722fe150472a35105eea4d0647b2cfe72a970cca371e503e973023a6fd8ee098",
+  "pins" : [
+    {
+      "identity" : "frameworkpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/nishantranjan10/FrameworkPackage",
+      "state" : {
+        "revision" : "7bc68a29de6aa5030001f34423deebba995d225d",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 3
+}
